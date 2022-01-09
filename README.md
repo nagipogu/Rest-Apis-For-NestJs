@@ -72,8 +72,6 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 
 Nest is [MIT licensed](LICENSE).
 
-## Api List
-
 ## Create Product
 http://localhost:3000/products(POST)
 Input:
@@ -88,7 +86,7 @@ Output:
     "id": "61db04051792c9eac86b1458"
 }
 
-##Get All Products
+## Get All Products
 http://localhost:3000/products(GET)
 Output:
 [
