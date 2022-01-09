@@ -71,3 +71,55 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 ## License
 
 Nest is [MIT licensed](LICENSE).
+
+## Api List
+
+## Create Product
+http://localhost:3000/products(POST)
+Input:
+{
+    "title": "test2",
+    "description": "test description2",
+    "price": "3000"
+}
+
+Output:
+{
+    "id": "61db04051792c9eac86b1458"
+}
+
+##Get All Products
+http://localhost:3000/products(GET)
+Output:
+[
+    {
+        "id": "61db00f11792c9eac86b1448",
+        "title": "test2",
+        "description": "test description2",
+        "price": 3000
+    },
+    {
+        "id": "61db03c51792c9eac86b1456",
+        "title": "test2",
+        "description": "test description2",
+        "price": 3000
+    },
+    {
+        "id": "61db04051792c9eac86b1458",
+        "title": "test2",
+        "description": "test description2",
+        "price": 3000
+    }
+]
+
+## Update Product
+http://localhost:3000/products/61db00a91792c9eac86b1445(PATCH)
+Input:
+{
+        "description": "test description"
+}
+
+## Delete Product
+http://localhost:3000/products/61db00a91792c9eac86b1445(DELETE)
+
+
